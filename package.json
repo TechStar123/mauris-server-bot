@@ -1,0 +1,15 @@
+{
+  "name": "mauris-server-bot",
+  "version": "1.0.0",
+  "description": "Discord Server Bot",
+  "main": "my_bot.js",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert <robbymoore5510@gmail.com>",
+  "license": "MIT"
+}
