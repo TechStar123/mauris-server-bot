@@ -13,7 +13,7 @@ async function helpCommand(msg) {
     );
   } else {
     const groupName = msg.args[1];
-    const group = commandFramework.commandGroups[groupName];
+    const group = commandFramework.commandGroups[groupName.toLowerCase()];
     if (!group) {
       return await msg.channel.send("That command group doesn't exist!");
     }
